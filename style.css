@@ -1,0 +1,47 @@
+body{
+    font-family: monospace;
+    color: black;
+    font-size: 24px;
+    background: conic-gradient(rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255), rgb(255, 0, 0));
+}
+
+.title{
+    background-color: rgb(0, 0, 0, 0.15);
+    font-size: inherit;
+    padding: 20px;
+    width: 600px;
+    border-style: hidden;
+    border-radius: 15px;
+}
+
+.id{
+    background-color: rgb(0, 0, 0, 0.15);
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+    border-style: hidden;
+    border-radius: 15px;
+}
+
+#view{
+    color: inherit;
+    border-radius: 10px;
+    margin: 5px;
+    width: 200px;
+    border-style: hidden;
+    height: 40px;
+    background-color:rgb(0, 0, 0, 0.15);
+}
+
+#view:hover{
+    background-color: rgb(0, 0, 0, 0.25);
+}
+
+canvas{
+    box-shadow: 1px 1px 50px grey;
+}
+
+footer{
+    margin-top: 550px;
+    background-color:rgb(0, 0, 0, 0.15);
+}
